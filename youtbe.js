@@ -20,3 +20,9 @@ function load() {
     http.open("GET", MUSIC_API, true);
     http.send();
 }
+
+var musicLink = document.getElementById('musicFrame');
+
+function doSomeThing(musicLink1) {
+    musicLink.src = musicLink1;
+}

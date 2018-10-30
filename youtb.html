@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body onload="load()">
-<table class="table table-hover">
+<table id="myMusic" class="table table-hover">
     <thead>
     <tr>
         <th scope="col">Id</th>
@@ -15,16 +15,11 @@
         <th scope="col">Handle</th>
     </tr>
     </thead>
-    <tbody>
-    <tr>
-        <th scope="row"></th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-    </tr>
-    </tbody>
-</table>
 
+</table>
+<audio id="musicFrame" controls autoplay="autoplay">
+    <source type="audio/mpeg">
+</audio>
 </body>
 <script src="youtbe.js"></script>
 </html>
